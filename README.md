@@ -59,7 +59,6 @@ User Login with JWT
 
 Protected Routes using JwtAuthGuard
 
-Role-based Access (if enabled)
 
 </details> <details> <summary>📌 API Endpoints</summary>
 Auth Routes
@@ -67,14 +66,6 @@ Auth Routes
 POST /auth/signup → Register a new user
 
 POST /auth/login → Login user & return JWT
-
-GET /auth/profile → Get logged-in user details (JWT required)
-
-User Routes
-
-GET /user/:id → Get user by ID
-
-GET /user → Get all users (protected)
 
 </details> <details> <summary>🛠️ Technologies Used</summary>
 
